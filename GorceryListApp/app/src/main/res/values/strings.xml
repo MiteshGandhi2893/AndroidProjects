@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GroceryList</string>
+    <string name="action_settings">Settings</string>
+    <string name="enter_Item">Enter Grocery Item</string>
+    <string name="Hint_item">Enter Grocery</string>
+    <string name="Hint_qty">Enter Grocery qty</string>
+    <string name="title_activity_list">listActivity</string>
+    <string name="title_activity_grocery_details">GroceryDetails</string>
+</resources>
