@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:padding="25dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Titletext"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:text="@string/Search_text"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:layout_below="@id/Titletext"
+                android:id="@+id/editTitle"
+                android:hint="Batman"/>
+            <Button android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/searchButton"
+                android:text="Submit"
+
+                android:background="@color/colorAccent"
+                android:textColor="@android:color/white"
+                android:layout_below="@id/editTitle"
+                android:textStyle="bold"
+                >
+
+
+
+            </Button>
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</android.support.constraint.ConstraintLayout>
