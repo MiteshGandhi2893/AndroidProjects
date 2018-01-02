@@ -1,0 +1,14 @@
+<device-admin xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-policies>
+        <!--     <limit-password /> -->
+        <!--     <watch-login /> -->
+        <!--     <reset-password /> -->
+        <force-lock />
+        <!--     <wipe-data /> -->
+        <!--     <expire-password /> -->
+        <!--     <encrypted-storage /> -->
+        <!--     <disable-camera /> -->
+    </uses-policies>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+</device-admin>
